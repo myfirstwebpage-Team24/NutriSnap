@@ -6,23 +6,92 @@
 
 </head>
 
+<style>
+.blink{
+    animation: blink 2s linear infinite;
+    color: #286Da8;
+    padding: 0;
+    border: none;
+    background: none;
+    text-align: left;
+}
+@keyframes blink {
+    50% {
+        opacity:0
+    }
+    80%{
+        opacity: 0.5
+    }
+
+}
+.btn{
+    border: 1px #286Da8;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    background-color:#286DA8;
+
+}
+
+.position_btn{
+    text-align: center;
+    position: relative;
+}
+
+.title-table {
+    position: relative;
+    background-color: #286DA8;
+    min-width: 100%;
+}
+
+a {
+    color:white
+}
+a:link{
+    text-decoration: none;
+    color:white
+    
+}
+a:hover{
+    color:white;
+    background-color: #164f80;
+}
+
+
+h3 {
+    color:black
+}
+h4 {
+    color: black
+
+}
+</style>
 <body>
-    <table> 
-<h1>
-    <tr align="right">
 
-    <th width = "250"> <a href = "file:///C:/Users/papaz/Documents/GitHub/myfirstwebsite/Features.html" title = " Features "> <big> Features </big> </a>  </th>
-    <th width = "250">   <a href = "file:///C:/Users/papaz/Documents/GitHub/myfirstwebsite/home.html" title = " Home"> <big> Home </big> </a> </th>
-    <th width = "250"> <a href = "file:///C:/Users/papaz/Documents/GitHub/myfirstwebsite/business.html" title = "Business" > <big> Business </big> </a> </th>
-    <th width = "250">  <a href = "file:///C:/Users/papaz/Documents/GitHub/myfirstwebsite/about.html" title = "About" > <big> About </big> </a> </th>
-    </h1>
-</tr>
-</table>
-<hr>
+    <div class="position_btn" style="text-align: right;">
+        <button class = "blink"> <big>50% off any coaching services until January 1st </big> </button>
+        <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign In </a></button>
+        <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign Up </a></button>
+    </div>
+<h1> 
+    <table class = "title-table" "> 
+        <thead> 
+    <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = " Features "> Features  </a>  </th>
+    <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = " Home">  Home  </a> </th>
+    <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "Business" >  Business  </a> </th>
+    <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "About" >  About  </a> </th>
+    <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "Team" >  Our team  </a> </th>
+    </thead> 
+    </table>
 
-<h3> WANT AN AD ON OUR SITE? </h3>
-<h4> Contact us</h4>
-<h4> Email : Businessinfo@nutrisnap.com </h4>
+
+<h3 style="font-family: sans-serif"> WANT AN AD ON OUR SITE? </h3>
+<h4 style="font-family: sans-serif"> Contact us</h4>
+<h4 style = "font-family: sans-serif" > Email : Businessinfo@nutrisnap.com </h4>
 
 </body>
  
