@@ -1,37 +1,36 @@
-<html style="background-color: blue";>
+<html >
     
     
     <head>
 
         <style>
+            .btn{
+                 border: 1px #286Da8;
+                 background: none;
+                 padding: 10px 20px;
+                 font-size: 20px;
+                 font-family: sans-serif;
+                 cursor: pointer;
+                 margin: 10px;
+                 color: white;
+                 background-color:#286DA8;
+
+            }
+
             .container{
-                height:400px
-                position: absolute;
-                border: 3px solid white
+                height:400px;
+                position: right;
+                border: 3px solid blue;
+                background-color: #286DA8;
+                border-radius: 3%;
     
             }
-            a:link{
-            color: orangered;
-            background-color: transparent;
-            text-decoration: none;
-            } a:hover {
-            color: red;
-            background-color: transparent;
-            text-decoration: underline;
-            }
-            a:visited {
-        color: beige;
-        background-color: transparent;
-        text-decoration: none;
-            }
-            .position1{
+            
+            .position_right{
                 position: absolute;
-                right: 1%;
+                right: 10%;
             }
-            .position2{
-                position: absolute;
-                right: 5%;
-            }
+
             ul.a{
                 list-style-type: circle;
             }
@@ -41,15 +40,45 @@
                 background-position: left top;
                 padding-top: 10px;
             }
+
+            p1{
+                text-align: centre;
+                
+                    color: black;
+                    font-family:'Times New Roman', Times, serif;
+                    font-size: 24;
+                }
+
             p2{
                     text-align: left;
-                    color: beige;
-                    font-family:'Times New Roman', Times, serif;
+                    color: black;
+                    font-family:'Times New Roman', Times, sans-serif;
                     font-size: 15;
                 
             }
-            h3{
-                color:beige
+            h3 {
+                 color:black
+            }
+                h4 {
+                color: black
+                }
+
+            .title-table {
+                 position: relative;
+                 background-color: #286DA8;
+                 min-width: 100%;
+            }
+            a {
+                 color:white
+            }
+            a:link{
+               text-decoration: none;
+            color:white
+    
+            }
+            a:hover{
+                color:white;
+             background-color: #164f80;
             }
     
         
@@ -63,27 +92,30 @@
     <h1 style="text-align: center;" > NutriSnap</h1>
 
 
-        <h2 style="text-align: center;">
-            <a href="https://www.w3schools.com/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.w3schools.com/">Buisness</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.w3schools.com/">Features</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.w3schools.com/">Our Team</a></P>
-        </h2>
+    <div class="position_btn" style="text-align: right;">
+    <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign In </a></button>
+        <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign Up </a></button>
+    </div>
+
+    <h1>
+    <table class = "title-table" > 
+        <thead> 
+            <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = " Home "> Features  </a>  </th>
+            <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = " Features">  Home  </a> </th>
+            <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "Business" >  Business  </a> </th>
+            <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "About" >  About  </a> </th>
+            <th> <a  style="font-family: sans-serif" href = "https://www.w3schools.com/" title = "Team" >  Our team  </a> </th>
+        </thead> 
+    </table></h1>
 
         
         <p1 style="text-align: center;">
             A Healthy Life Just A Snap Away
         </p1>
+
         <hr></hr>
 
-        
-
-        <div class="position1">
-            <button>Sign In</button>
-        </div>
-        <div class="position2">
-            <button>Sign Up</button>
-        </div>
+    
     <p2 >
         
         <h3 style="text-align: justify;">Our product is an extemly advance Piece of technology which has new generational AI 
@@ -96,13 +128,12 @@
         <ul class="a">
             
             
-            <div class="position2">
-                <div class="container">
-                    
-                <h1>DOWNLOAD NOW</h1>
-                <button class="button" onclick="alert('Downloading Android Version!')"><img src="" alt="Android" style="width:100px;height:100px; box-shadow: 4px;">
-                <button class="button" onclick="alert('Downloading IOS Version!')"><img src="" alt="Apple" style="width:100px;height:100px;">
-            </div></div>
+                <div class="position_right" style="align-items: right; text-align: right; ">
+                    <div class="container">
+                <h1 style="text-align: center; font-family: sans-serif; color: white;">DOWNLOAD NOW</h1>
+                <button class="btn" onclick="alert('Downloading Android Version!')"><img src="" alt="Android" style="width:100px;height:100px; box-shadow: 4px;">
+                <button class="btn" onclick="alert('Downloading IOS Version!')"><img src="" alt="Apple" style="width:100px;height:100px;">
+                </div></div>
             
 
         
