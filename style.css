@@ -36,6 +36,14 @@ body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.background{
+   background-image: url(images/HomePageBackground.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   }
+}
+
 p1{
    text-align: centre;
    
