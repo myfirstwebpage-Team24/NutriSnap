@@ -1,11 +1,11 @@
 .btn{
     border: 1px #286Da8;
     background: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 20px;
     font-family: sans-serif;
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
     color: white;
     background-color:#286DA8;
 
@@ -34,6 +34,7 @@ body{
    background-position: left top;
    padding-top: 10px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 50%;
 }
 
 .background{
