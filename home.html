@@ -6,13 +6,14 @@
         <meta charset="utf-8">
         <meta name = "viewport" content="width=device-width,initial-scale=1">
 
+        <script src="main.js" defer></script>
+
         <style>
             body {
               background-image: url(images/HomePageBackground.jpg);
               background-repeat: no-repeat;
               background-attachment: fixed;
               background-size: 100% 100%; 
-              /*background-position: 0px 225px;*/
             }
         </style> 
         
@@ -20,12 +21,12 @@
     <body>
         <h1 style="text-align: center;" > NutriSnap</h1>
 
-        <div id =  class="position_btn" style="text-align: right;">
+        <div id =  class = "position_btn" style="text-align: right;">
             <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign In </a></button>
             <button class = "btn">  <a href = "https://www.w3schools.com/"> Sign Up </a></button>
         </div>
         
-            <h1>
+            <h3>
                 <div>
             <table class = "title-table" > 
                 <thead> 
@@ -34,6 +35,18 @@
                     <th> <a  style="font-family: sans-serif" href = "business.html" title = "Business" >  Business  </a> </th>
                     <th> <a  style="font-family: sans-serif" href = "Team.html" title = "Team" >  Our team  </a> </th>
                 </thead> 
-            </table></h1>
+            </table></h3>
+
+            <h2> Time until 50% off sale ends!</h2>
+                <div id = "countdown" class = "countdown">
+                    <ul>
+                        <li><span id="days">00</span>days</li>
+                        <li><span id="hours">00</span>hours</li>
+                        <li class="seperator">:</li>
+                        <li><span id="minutes">00</span>minutes</li>
+                        <li class="seperator">:</li>
+                        <li><span id="seconds">00</span>seconds</li>
+                    </ul>
+            </div>
     </body>
 </html>
