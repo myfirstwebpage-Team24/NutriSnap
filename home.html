@@ -5,19 +5,35 @@
         <meta charset="utf-8">
         <meta name = "viewport" content="width=device-width,initial-scale=1">
 
+        <script src="main.js" defer></script>
+
         <style>
             body {
               background-image: url(images/HomePageBackground.jpg);
               background-repeat: no-repeat;
               background-attachment: fixed;
               background-size: 100% 100%; 
-              /*background-position: 0px 225px;*/
+            }
+            .text{
+                padding-top: 125px;
+                text-align: center;
             }
         </style> 
         
     </head>
+    <h2 class = "text"> Time until 50% off sale ends!</h2>
+                <div id = "countdown" class = "countdown">
+                    <ul>
+                        <li><span id="days">00</span>days</li>
+                        <li><span id="hours">00</span>hours</li>
+                        <li class="seperator">:</li>
+                        <li><span id="minutes">00</span>minutes</li>
+                        <li class="seperator">:</li>
+                        <li><span id="seconds">00</span>seconds</li>
+                    </ul>
+            </div>
     <body>
-        <h1 style="text-align: center;" > NutriSnap</h1>
+
         <head>
             <header class = "header">
                 <img src="logo.jpg" class="logo">
@@ -31,5 +47,7 @@
             </header>
     
         </head>
+
+            
     </body>
 </html>
