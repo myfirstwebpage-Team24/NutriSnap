@@ -40,4 +40,25 @@ function formatNumber(number) {
     return number
 }
 
-Timer()
+const text = '__Sign in Here__';
+let index = 0;
+const typingEffectElement = document.getElementById('typingEffect');
+
+function type() {
+  if (index < text.length) {
+    typingEffectElement.innerHTML += text.charAt(index);
+    index++;
+    setTimeout(type, 50); // Adjust the typing speed as needed
+  }
+}
+
+type();
+
+function validateForm() {
+    var x = document.getElementById('femail').value;
+    var y = document.getElementById('fpassword').value;
+    if (x == "" || y == "") {
+      alert("Email and Password must be filled out");
+      return false;
+    }
+  }
