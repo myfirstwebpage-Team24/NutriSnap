@@ -72,9 +72,6 @@ body{
    border-radius: 50%;
 }
 
-<<<<<<< HEAD
-
-=======
 .background{
    background-image: url(images/HomePageBackground.jpg);
    background-repeat: no-repeat;
@@ -111,7 +108,6 @@ li.seperator{
 li:first-of-type {
    margin-right: 2rem;
 }
->>>>>>> 22ca060e3711cf944079033e17af46a150cf8f75
 
 p1{
    
