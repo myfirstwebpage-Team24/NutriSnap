@@ -31,6 +31,7 @@ function Timer() {
         }
     }, 1000)
 }
+Timer()
 
 function formatNumber(number) {
     if (number < 10) {
