@@ -23,6 +23,19 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.submit_button {
+   padding: 12px 18px;
+   background-color: black;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+.submit_button:hover {
+   background-color: grey;
+}
 </style>
 </head>
     </head> 
@@ -68,7 +81,7 @@ body, html {
                 <img src = "images/lock-icon.png"> Password: <input type="text" id="fpassword">
                 <br>
                 <br>
-                <input type="submit" value="Submit" style="background-color: black; color: whitesmoke">
+                <input class = "submit_button" type="submit" value="Submit" >
             </form>
         </center>
         
