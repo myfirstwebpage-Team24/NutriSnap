@@ -48,18 +48,11 @@ width: 100%
 
 }
 .container{
-   height:400px;
-   width:500px;
    position: right;
    border: 3px solid blue;
    background-color: #286DA8;
    border-radius: 3%;
 
-}
-
-.position_right{
-   position: absolute;
-   right: 10%;
 }
 
 ul.a{
