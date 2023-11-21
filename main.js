@@ -4,7 +4,7 @@ var minutesEL = document.getElementById('minutes')
 var secondsEL = document.getElementById('seconds')
 
 function Timer() {
-    const countDownDate = new Date('1/1/2024').getTime()
+    const countDownDate = new Date('12/1/2023').getTime()
 
     //Get milisecond
     const second = 1000
