@@ -41,7 +41,7 @@ function formatNumber(number) {
     return number
 }
 
-const text = '__Sign in Here__';
+const text = 'Sign in Here';
 let index = 0;
 const typingEffectElement = document.getElementById('typingEffect');
 
